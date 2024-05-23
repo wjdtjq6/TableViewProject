@@ -58,22 +58,30 @@ class TwoTableViewController: UITableViewController {
         let cell1 = tableView.dequeueReusableCell(withIdentifier: "Cell1")!
         let cell2 = tableView.dequeueReusableCell(withIdentifier: "Cell2")!
         let cell3 = tableView.dequeueReusableCell(withIdentifier: "Cell3")!
+        let cells: [UITableViewCell] = [cell1,cell2,cell3]
         
-        if indexPath.section == 0 {
-            cell1.textLabel!.text = list[indexPath.section][indexPath.row]
-            cell1.textLabel!.font = UIFont.systemFont(ofSize: 12)
-            return cell1
+        for i in 0...list[0].count-1 {
+            cells[i].textLabel!.text = list[indexPath.section][indexPath.row]
+            cells[i].textLabel!.font = UIFont.systemFont(ofSize: 12)
+            return cells[i]
         }
-        else if indexPath.section == 1 {
-            cell2.textLabel!.text = list[indexPath.section][indexPath.row]
-            cell2.textLabel!.font = UIFont.systemFont(ofSize: 12)
-            return cell2
-        }
-        else {
-            cell3.textLabel!.text = list[indexPath.section][indexPath.row]
-            cell3.textLabel!.font = UIFont.systemFont(ofSize: 12)
-            return cell3
-        }
+        return cell1
+        
+//        if indexPath.section == 0 {
+//            cell1.textLabel!.text = list[indexPath.section][indexPath.row]
+//            cell1.textLabel!.font = UIFont.systemFont(ofSize: 12)
+//            return cell1
+//        }
+//        else if indexPath.section == 1 {
+//            cell2.textLabel!.text = list[indexPath.section][indexPath.row]
+//            cell2.textLabel!.font = UIFont.systemFont(ofSize: 12)
+//            return cell2
+//        }
+//        else {
+//            cell3.textLabel!.text = list[indexPath.section][indexPath.row]
+//            cell3.textLabel!.font = UIFont.systemFont(ofSize: 12)
+//            return cell3
+//        }
     }
 }
 
