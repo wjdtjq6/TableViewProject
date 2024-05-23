@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0333D56B2BFF3758005B7E24 /* TwoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333D56A2BFF3758005B7E24 /* TwoTableViewController.swift */; };
 		0373C04E2BFF2697002C128A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0373C04D2BFF2697002C128A /* AppDelegate.swift */; };
 		0373C0502BFF2697002C128A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0373C04F2BFF2697002C128A /* SceneDelegate.swift */; };
 		0373C0522BFF2697002C128A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0373C0512BFF2697002C128A /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0333D56A2BFF3758005B7E24 /* TwoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTableViewController.swift; sourceTree = "<group>"; };
 		0373C04A2BFF2697002C128A /* TableViewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0373C04D2BFF2697002C128A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0373C04F2BFF2697002C128A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				0373C04D2BFF2697002C128A /* AppDelegate.swift */,
+				0333D56A2BFF3758005B7E24 /* TwoTableViewController.swift */,
 				0373C04F2BFF2697002C128A /* SceneDelegate.swift */,
 				0373C0512BFF2697002C128A /* ViewController.swift */,
 				0373C0532BFF2697002C128A /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0333D56B2BFF3758005B7E24 /* TwoTableViewController.swift in Sources */,
 				0373C0522BFF2697002C128A /* ViewController.swift in Sources */,
 				0373C04E2BFF2697002C128A /* AppDelegate.swift in Sources */,
 				0373C0502BFF2697002C128A /* SceneDelegate.swift in Sources */,
